@@ -1,0 +1,8 @@
+Subject:Possessive Adjectives:Possessive Pronoun:Object
+I:My:Mine:Me
+He:His:His:Him
+She:Her:Hers:Her
+You:Your:Yours:You
+We:Our:Ours:Us
+Their:Their:Theirs:Them
+It:Its:Its:It

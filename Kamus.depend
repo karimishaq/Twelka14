@@ -1,0 +1,71 @@
+# depslib dependency file v1.0
+1543594435 source:/home/geri/GERI/kamus/bersih_bersih.cpp
+	"main.h"
+	<stdio.h>
+
+1544056401 /home/geri/GERI/kamus/main.h
+	<cstdlib>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<math.h>
+	<SDL2/SDL.h>
+	<SDL2/SDL_ttf.h>
+	<SDL2/SDL_image.h>
+
+1544056413 source:/home/geri/GERI/kamus/daftar_kata.cpp
+	"main.h"
+
+1543979550 source:/home/geri/GERI/kamus/event_mouse.cpp
+	"main.h"
+
+1543980378 source:/home/geri/GERI/kamus/fungsi_dasar.cpp
+	"main.h"
+	<dirent.h>
+
+1533632518 source:/home/geri/GERI/kamus/fungsi_data.cpp
+	"main.h"
+
+1533637045 source:/home/geri/GERI/kamus/fungsi_gambar.cpp
+	"main.h"
+
+1543630338 source:/home/geri/GERI/kamus/fungsi_lexicon.cpp
+	"main.h"
+
+1544056433 source:/home/geri/GERI/kamus/fungsi_menu.cpp
+	"main.h"
+	<dirent.h>
+
+1544056447 source:/home/geri/GERI/kamus/fungsi_pencarian_kata.cpp
+	"main.h"
+
+1544058842 source:/home/geri/GERI/kamus/kamus.cpp
+	"main.h"
+
+1544056363 source:/home/geri/GERI/kamus/stringku.cpp
+	"main.h"
+
+1434748682 source:/home/geri/GERI/kamus/susunan.cpp
+	"main.h"
+
+1438792590 source:/home/geri/GERI/kamus/test.cpp
+	"main_game.h"
+
+1438793886 /home/geri/GERI/kamus/main_game.h
+	<cstdlib>
+	<stdlib.h>
+	<stdio.h>
+	<SDL2/SDL.h>
+	<SDL2/SDL_ttf.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_mixer.h>
+
+1544058967 source:/home/geri/GERI/kamus/tombol.cpp
+	"main.h"
+
+1533069718 source:/home/geri/GERI/kamus/urut.cpp
+	"main.h"
+
+1544058639 source:/home/geri/GERI/kamus/utama.cpp
+	"main.h"
+

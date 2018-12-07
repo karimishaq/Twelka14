@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Kamus" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="kamus" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="../SDL2/include" />
+		</Compiler>
+		<Linker>
+			<Add option="-lmingw32 -lSDL2main -lSDL2 -lSDL2_image -lSDL2_ttf" />
+			<Add directory="../SDL2/lib" />
+		</Linker>
+		<Unit filename="bersih_bersih.cpp" />
+		<Unit filename="daftar_kata.cpp" />
+		<Unit filename="event_mouse.cpp" />
+		<Unit filename="fungsi_dasar.cpp" />
+		<Unit filename="fungsi_data.cpp" />
+		<Unit filename="fungsi_gambar.cpp" />
+		<Unit filename="fungsi_lexicon.cpp" />
+		<Unit filename="fungsi_menu.cpp" />
+		<Unit filename="fungsi_pencarian_kata.cpp" />
+		<Unit filename="kamus.cpp">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="kamus.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Unit filename="main.h" />
+		<Unit filename="stringku.cpp" />
+		<Unit filename="tombol.cpp" />
+		<Unit filename="urut.cpp" />
+		<Unit filename="utama.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
